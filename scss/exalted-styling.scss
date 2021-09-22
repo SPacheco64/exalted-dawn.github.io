@@ -175,7 +175,12 @@ header
     .character-image, .character-info
     {
         width: 100%;
-        height: fit-content;
+        height: auto;
+    }
+    #charColors
+    {
+        display: block;
+        text-align: center;
     }
     .color-box
     {
@@ -550,6 +555,10 @@ footer
     }
     .swiper-button-next{ right: 1.5rem; }
     .swiper-button-prev{ left: 1.5rem; }
+    .character-bio-box
+    {
+        #charColors{ text-align: left; }
+    }
     .backstory-section
     {
         #backstoryTop
