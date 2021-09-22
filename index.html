@@ -34,8 +34,10 @@
     </head>
 
     <body>
+        <button onclick = "topFunction()" id = "scrollToTopBtn"><i class="fas fa-arrow-alt-circle-up"></i></button>
+
         <!-- Site Header -->
-        <header>
+        <header data-aos = "fade-up" data-aos-once = "true" data-aos-duration = "1000">
             <div class = "container-fluid">
                 <div class = "row align-items-center">
                     <div id = "headerTitle" class = "col-md-12 d-flex left-content">
@@ -55,7 +57,7 @@
         </header>
 
         <!-- Main Body Content -->
-        <div id = "pageContent" class = "">
+        <div id = "pageContent" class = "" data-aos = "fade-up" data-aos-once = "true" data-aos-duration = "1000">
             <!-- Character Slider - START -->
             <div class = "swiper-container swiper1">
                 <div class = "swiper-wrapper">
@@ -154,8 +156,8 @@
                 <div class = "swiper-pagination"></div>
 
                 <!-- Slider Arrow Buttons -->
-                <div class="swiper-button-prev"><i class="fas fa-arrow-circle-left"></i></div>
-                <div class="swiper-button-next"><i class="fas fa-arrow-circle-right"></i></div>
+                <div class="swiper-button-prev"><i class="fas fa-arrow-alt-circle-left"></i></div>
+                <div class="swiper-button-next"><i class="fas fa-arrow-alt-circle-right"></i></div>
             </div>
             <!-- Character Slider - END -->
 
@@ -194,7 +196,13 @@
                     </div>
                     
                     <div class = "backstory-section">
-                        <b>BACKSTORY:</b> <br>
+                        <div id = "backstoryTop">
+                            <b>BACKSTORY:</b> 
+                            <button id = "expandBackBtn" onclick = "expandBackstory()"><i class='fas fa-plus-circle'></i></button>
+                        </div>
+                        <div id = "continuePreview">
+                            Expand for full backstory...
+                        </div>
                         <span id = "charBackstory">
                             &nbsp;
                         </span>
@@ -203,7 +211,7 @@
                     
                     <div class = "gallery-header">
                         REFERENCE GALLERY<br>
-                        <i>(click on image for full higher resolution version)</i>
+                        <i>(click on image for full, higher resolution version)</i>
                     </div>
                     
                     <div id = "character-img-gallery">
