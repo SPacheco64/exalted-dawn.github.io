@@ -218,6 +218,7 @@ header
     border: .2rem solid #fff;
     border-radius: 5rem;
     width: fit-content;
+    width: -moz-fit-content;
     padding: 0 1rem;
     margin: 0 auto;
     margin-top: .5rem;
@@ -471,6 +472,7 @@ footer
             background-color: rgba(0,0,0,0.7);
             border: 0.1rem solid #fff;
             width: fit-content;
+            width: -moz-fit-content;
             min-width: 10rem;
             text-align: center;
             margin: 0 auto;
@@ -597,6 +599,7 @@ footer
                 border-radius: 1rem;
                 text-shadow: 0.1rem 0.1rem 1rem #000;
                 width: fit-content;
+                width: -moz-fit-content;
                 min-width: 12rem;
                 font-size: .7rem;
             }
