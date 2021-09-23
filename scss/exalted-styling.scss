@@ -319,6 +319,7 @@ header
     font-size: 2rem;
     color: $secondary-color;
     caret-color: transparent;
+    outline: none;
     i
     {
         background-color: $white-text;
@@ -636,16 +637,15 @@ footer
     }
     .backstory-section
     {
-        #backstoryTop
+        button
         {
-            button
-            {
-                i
-                {
-                    padding-right: .01rem;
-                }   
-            }
+            color: $white-text;
+            background: none;
+            border: none;
+            outline: none !important;
+            cursor: pointer;
         }
+        button:hover{ color: $secondary-color; }
     }
     #character-img-gallery
     {
