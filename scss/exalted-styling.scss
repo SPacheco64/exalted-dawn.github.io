@@ -146,7 +146,7 @@ header
     a { color: $white-text; }
     padding: 1rem;
     margin-top: 3rem;
-    border-radius: .5rem .5rem 0 0;
+    border-radius: 1rem 1rem 0 0;
     #headerTitle
     { 
         font-size: 1.5rem;
@@ -187,7 +187,7 @@ header
 
 #pageContent
 {
-    border-radius: 0 0 .5rem .5rem;
+    border-radius: 0 0 1rem 1rem;
 }
 .swiper-slide-active a
 {
