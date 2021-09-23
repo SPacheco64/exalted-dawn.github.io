@@ -266,6 +266,15 @@ header
     position: relative;
     background: rgba(0,0,0,.3);
 
+    button
+    {
+        color: $white-text;
+        background: none;
+        border: none;
+        outline: none !important;
+        cursor: pointer;
+    }
+
     #backstoryTop
     {
         display: inline-block;
@@ -273,6 +282,7 @@ header
         font-size: 1.2rem;
 
         b{ float: left; }
+        /*
         button
         { 
             float: right;
@@ -291,6 +301,7 @@ header
                 padding-right: .02rem;
             }
         }
+        */
     }
 
     #continuePreview
@@ -637,14 +648,6 @@ footer
     }
     .backstory-section
     {
-        button
-        {
-            color: $white-text;
-            background: none;
-            border: none;
-            outline: none !important;
-            cursor: pointer;
-        }
         button:hover{ color: $secondary-color; }
     }
     #character-img-gallery
