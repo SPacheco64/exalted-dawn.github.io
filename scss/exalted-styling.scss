@@ -404,6 +404,8 @@ footer
             left: 0;
             right: 0;
             font-size: .7rem;
+
+            a{ color: $secondary-color; }
         }
     }
 
@@ -427,11 +429,13 @@ footer
             opacity: .6;
             border-radius: 1rem;
             border: .1rem solid $white-text;
+            overflow: hidden;
+            font-size: 0;
         }
         .art-thumbnail.active img
         {
             opacity: 1;
-            box-shadow: 1px 1px 10px #ffccb0;
+            box-shadow: 1px 1px 10px $secondary-color;
         }
     }
 }
@@ -538,7 +542,7 @@ footer
             .art-thumbnail.active img
             {
                 opacity: 1;
-                box-shadow: 1px 1px 10px #ffccb0;
+                box-shadow: 1px 1px 10px $secondary-color;
             }
         }
     }
@@ -577,7 +581,14 @@ footer
         position: relative;
         width: 65%;
 
-        .row{ margin-top: 1rem; }
+        .row
+        {
+            .art-thumbnail img
+            {
+                font-size: .8rem;
+            } 
+            margin-top: 1rem; 
+        }
         .mySlides
         {
             width: 30.5rem;
@@ -650,8 +661,15 @@ footer
         .mySlides
         {
             height: 32.5rem;
+            .artist-name
+            {
+                a
+                { 
+                    color: $white-text; 
+                }
+                a:hover{ color: $secondary-color; }
+            }
         }
-
         .row
         {
             .art-thumbnail:hover
