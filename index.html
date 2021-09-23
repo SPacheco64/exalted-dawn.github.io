@@ -36,189 +36,191 @@
     <body>
         <button onclick = "topFunction()" id = "scrollToTopBtn"><i class="fas fa-arrow-alt-circle-up"></i></button>
 
-        <!-- Site Header -->
-        <header data-aos = "fade-up" data-aos-once = "true" data-aos-duration = "1000">
-            <div class = "container-fluid">
-                <div class = "row align-items-center">
-                    <div id = "headerTitle" class = "col-md-12 d-flex left-content">
-                        Exalted_Dawn Characters
+        <div id = "mainContent" data-aos = "fade-up" data-aos-once = "true" data-aos-duration = "2000">
+            <!-- Site Header -->
+            <header>
+                <div class = "container-fluid">
+                    <div class = "row align-items-center">
+                        <div id = "headerTitle" class = "col-md-12 d-flex left-content">
+                            Exalted_Dawn Characters
+                        </div>
+            
+                        <!--
+                        <div id = "searchBar" class = "col-md-5 d-flex right-content">
+                            <div class = "row align-items-center">
+                                <input type = "text" id = "characterSearch" class = "character-search col-md-10 d-flex left-content" placeholder = "Character Search...">
+                                <i class="fas fa-search col-md-2 d-flex right-content"></i>
+                            </div>
+                        </div>
+                        -->
                     </div>
-        
-                    <!--
-                    <div id = "searchBar" class = "col-md-5 d-flex right-content">
-                        <div class = "row align-items-center">
-                            <input type = "text" id = "characterSearch" class = "character-search col-md-10 d-flex left-content" placeholder = "Character Search...">
-                            <i class="fas fa-search col-md-2 d-flex right-content"></i>
+                </div>
+            </header>
+
+            <!-- Main Body Content -->
+            <div id = "pageContent">
+                <!-- Character Slider - START -->
+                <div class = "swiper-container swiper1">
+                    <div class = "swiper-wrapper">
+                        <div class = "swiper-slide" id = "cyrus">
+                            <a href = "#cyrus">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/cyrus-portrait.png">
+                                </div>
+                                <div class = "character-name">
+                                    Cyrus
+                                </div>
+                            </a>
+                        </div>
+                        <div class = "swiper-slide"  id = "elias">
+                            <a href = "#elias">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/elias-portrait.png">
+                                </div>
+                                <div class = "character-name">
+                                    Elias
+                                </div>
+                            </a>
+                        </div>
+                        <div class = "swiper-slide"  id = "ferra">
+                            <a href = "#ferra">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/ferra-portrait.jpg">
+                                </div>
+                                <div class = "character-name">
+                                    Ferra
+                                </div>
+                            </a>
+                        </div>
+                        <div class = "swiper-slide"  id = "iris">
+                            <a href = "#iris">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/iris-portrait.png">
+                                </div>
+                                <div class = "character-name">
+                                    Iris
+                                </div>
+                            </a>
+                        </div>
+                        <div class = "swiper-slide"  id = "sethris">
+                            <a href = "#sethris">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/sethris-portrait.png">
+                                </div>
+                                <div class = "character-name">
+                                    Sethris
+                                </div>
+                            </a>
+                        </div>
+                        <div class = "swiper-slide"  id = "shaesa">
+                            <a href = "#shaesa">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/shaesa-portrait.png">
+                                </div>
+                                <div class = "character-name">
+                                    Shaesa
+                                </div>
+                            </a>
+                        </div>
+                        <div class = "swiper-slide"  id = "sunna">
+                            <a href = "#sunna">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/sunna-portrait.png">
+                                </div>
+                                <div class = "character-name">
+                                    Sunna
+                                </div>
+                            </a>
+                        </div>
+                        <div class = "swiper-slide"  id = "talenna">
+                            <a href = "#talenna">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/talenna-portrait.jpg">
+                                </div>
+                                <div class = "character-name">
+                                    Talenna
+                                </div>
+                            </a>
+                        </div>
+                        <div class = "swiper-slide"  id = "valere">
+                            <a href = "#valere">
+                                <div class = "slide-img-container">
+                                    <img alt = "" src = "images/portraits/valere-portrait.jpg">
+                                </div>
+                                <div class = "character-name">
+                                    Valere
+                                </div>
+                            </a>
                         </div>
                     </div>
-                    -->
+                    <!-- Pagination Dots -->
+                    <div class = "swiper-pagination"></div>
+
+                    <!-- Slider Arrow Buttons -->
+                    <div class="swiper-button-prev"><i class="fas fa-arrow-alt-circle-left"></i></div>
+                    <div class="swiper-button-next"><i class="fas fa-arrow-alt-circle-right"></i></div>
                 </div>
-            </div>
-        </header>
+                <!-- Character Slider - END -->
 
-        <!-- Main Body Content -->
-        <div id = "pageContent" class = "" data-aos = "fade-up" data-aos-once = "true" data-aos-duration = "1000">
-            <!-- Character Slider - START -->
-            <div class = "swiper-container swiper1">
-                <div class = "swiper-wrapper">
-                    <div class = "swiper-slide" id = "cyrus">
-                        <a href = "#cyrus">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/cyrus-portrait.png">
-                            </div>
-                            <div class = "character-name">
-                                Cyrus
-                            </div>
-                        </a>
-                    </div>
-                    <div class = "swiper-slide"  id = "elias">
-                        <a href = "#elias">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/elias-portrait.png">
-                            </div>
-                            <div class = "character-name">
-                                Elias
-                            </div>
-                        </a>
-                    </div>
-                    <div class = "swiper-slide"  id = "ferra">
-                        <a href = "#ferra">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/ferra-portrait.jpg">
-                            </div>
-                            <div class = "character-name">
-                                Ferra
-                            </div>
-                        </a>
-                    </div>
-                    <div class = "swiper-slide"  id = "iris">
-                        <a href = "#iris">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/iris-portrait.png">
-                            </div>
-                            <div class = "character-name">
-                                Iris
-                            </div>
-                        </a>
-                    </div>
-                    <div class = "swiper-slide"  id = "sethris">
-                        <a href = "#sethris">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/sethris-portrait.png">
-                            </div>
-                            <div class = "character-name">
-                                Sethris
-                            </div>
-                        </a>
-                    </div>
-                    <div class = "swiper-slide"  id = "shaesa">
-                        <a href = "#shaesa">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/shaesa-portrait.png">
-                            </div>
-                            <div class = "character-name">
-                                Shaesa
-                            </div>
-                        </a>
-                    </div>
-                    <div class = "swiper-slide"  id = "sunna">
-                        <a href = "#sunna">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/sunna-portrait.png">
-                            </div>
-                            <div class = "character-name">
-                                Sunna
-                            </div>
-                        </a>
-                    </div>
-                    <div class = "swiper-slide"  id = "talenna">
-                        <a href = "#talenna">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/talenna-portrait.jpg">
-                            </div>
-                            <div class = "character-name">
-                                Talenna
-                            </div>
-                        </a>
-                    </div>
-                    <div class = "swiper-slide"  id = "valere">
-                        <a href = "#valere">
-                            <div class = "slide-img-container">
-                                <img alt = "" src = "images/portraits/valere-portrait.jpg">
-                            </div>
-                            <div class = "character-name">
-                                Valere
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <!-- Pagination Dots -->
-                <div class = "swiper-pagination"></div>
+                <div class = "container-fluid">
+                    <!-- Collection of Character Anchor Tags - START -->
+                    <span class = "character-anch" id = "cyrus"></span><span class = "character-anch" id = "elias"></span>
+                    <span class = "character-anch" id = "ferra"></span><span class = "character-anch" id = "iris"></span>
+                    </span><span class = "character-anch" id = "sethris"></span><span class = "character-anch" id = "shaesa"></span>
+                    <span class = "character-anch" id = "sunna"></span><span class = "character-anch" id = "talenna"></span>
+                    <span class = "character-anch" id = "valere"></span>
+                    <!-- Collection of Character Anchor Tags - END -->
 
-                <!-- Slider Arrow Buttons -->
-                <div class="swiper-button-prev"><i class="fas fa-arrow-alt-circle-left"></i></div>
-                <div class="swiper-button-next"><i class="fas fa-arrow-alt-circle-right"></i></div>
-            </div>
-            <!-- Character Slider - END -->
-
-            <div class = "container-fluid">
-                <!-- Collection of Character Anchor Tags - START -->
-                <span class = "character-anch" id = "cyrus"></span><span class = "character-anch" id = "elias"></span>
-                <span class = "character-anch" id = "ferra"></span><span class = "character-anch" id = "iris"></span>
-                </span><span class = "character-anch" id = "sethris"></span><span class = "character-anch" id = "shaesa"></span>
-                <span class = "character-anch" id = "sunna"></span><span class = "character-anch" id = "talenna"></span>
-                <span class = "character-anch" id = "valere"></span>
-                <!-- Collection of Character Anchor Tags - END -->
-
-                <!-- Character Biography Container (Populated through JS) - START -->
-                <div id = "bioBox" class = "character-bio-box row">
-                    <div class = "col-md-6 d-flex left-content align-items-center">
-                        <span id = "charImg">
-                            &nbsp;
-                        </span>
-                    </div>
-                    <div class = "col-md-6 d-flex right-content align-items-center">
-                        <div class = "character-info">
-                            <b>NAME:</b> <span id = "charName">&nbsp;</span><br>
-                            <b>AGE:</b> <span id = "charAge">&nbsp;</span><br>
-                            <b>HEIGHT:</b> <span id = "charHeight">&nbsp;</span><br>
-                            <b>FRANCHISE:</b> <span id = "charFranchise">&nbsp;</span><br>
-                            <b>RACE:</b> <span id = "charRace">&nbsp;</span><br>
-                            <b>LIKES:</b> <span id = "charLikes">&nbsp;</span><br>
-                            <b>DISLIKES:</b> <span id = "charDislikes">&nbsp;</span><br>
-                            <b>PERSONALITY:</b> <span id = "charPersonality">&nbsp;</span><br>
-                            
-                            <b>MAIN COLORS:</b><br>
-                            <span id = "charColors">
+                    <!-- Character Biography Container (Populated through JS) - START -->
+                    <div id = "bioBox" class = "character-bio-box row">
+                        <div class = "col-md-6 d-flex left-content align-items-center">
+                            <span id = "charImg">
                                 &nbsp;
                             </span>
                         </div>
-                    </div>
-                    
-                    <div class = "backstory-section">
-                        <div id = "backstoryTop">
-                            <b>BACKSTORY:</b> 
-                            <button id = "expandBackBtn" onclick = "expandBackstory()"><i class='fas fa-plus-circle'></i></button>
+                        <div class = "col-md-6 d-flex right-content align-items-center">
+                            <div class = "character-info">
+                                <b>NAME:</b> <span id = "charName">&nbsp;</span><br>
+                                <b>AGE:</b> <span id = "charAge">&nbsp;</span><br>
+                                <b>HEIGHT:</b> <span id = "charHeight">&nbsp;</span><br>
+                                <b>FRANCHISE:</b> <span id = "charFranchise">&nbsp;</span><br>
+                                <b>RACE:</b> <span id = "charRace">&nbsp;</span><br>
+                                <b>LIKES:</b> <span id = "charLikes">&nbsp;</span><br>
+                                <b>DISLIKES:</b> <span id = "charDislikes">&nbsp;</span><br>
+                                <b>PERSONALITY:</b> <span id = "charPersonality">&nbsp;</span><br>
+                                
+                                <b>MAIN COLORS:</b><br>
+                                <span id = "charColors">
+                                    &nbsp;
+                                </span>
+                            </div>
                         </div>
-                        <div id = "continuePreview">
-                            Expand for full backstory...
+                        
+                        <div class = "backstory-section">
+                            <div id = "backstoryTop">
+                                <b>BACKSTORY:</b> 
+                                <button id = "expandBackBtn" onclick = "expandBackstory()"><i class='fas fa-plus-circle'></i></button>
+                            </div>
+                            <div id = "continuePreview">
+                                Expand for full backstory...
+                            </div>
+                            <span id = "charBackstory">
+                                &nbsp;
+                            </span>
+                            <br>
                         </div>
-                        <span id = "charBackstory">
+                        
+                        <div class = "gallery-header">
+                            REFERENCE GALLERY<br>
+                            <i>(click on image for full, higher resolution version)</i>
+                        </div>
+                        
+                        <div id = "character-img-gallery">
                             &nbsp;
-                        </span>
-                        <br>
+                        </div>
                     </div>
-                    
-                    <div class = "gallery-header">
-                        REFERENCE GALLERY<br>
-                        <i>(click on image for full, higher resolution version)</i>
-                    </div>
-                    
-                    <div id = "character-img-gallery">
-                        &nbsp;
-                    </div>
+                    <!-- Character Biography Container (Populated through JS) - END -->
                 </div>
-                <!-- Character Biography Container (Populated through JS) - END -->
             </div>
         </div>
 
