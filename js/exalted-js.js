@@ -310,6 +310,7 @@ function expandBackstory()
     backstoryTop.scrollIntoView();
     bottomPreview.style.display = "none";
 }
+/*
 function collapseBackstory()
 {
     document.getElementsByClassName("backstory-section")[0].style.height = "14rem";
@@ -317,6 +318,7 @@ function collapseBackstory()
     $("#expandBackBtn").html("<i class='fas fa-plus-circle'></i>");
     bottomPreview.style.display = "block";
 }
+*/
 
 // Basic JS for Character Art Gallery
 var slideIndex = 1;
