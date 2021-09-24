@@ -213,18 +213,17 @@ header
         width: 100%; 
     }
 }
+.character-anch
+{
+    position: fixed;
+    top: 35vh;
+}
 .character-name
 {
     font-size: 1.25rem;
     letter-spacing: .15rem;
-    //border: .2rem solid #fff;
-    //border-radius: 5rem;
-    //width: fit-content;
-    //width: -moz-fit-content;
-    //padding: 0 1rem;
     margin: 0 auto;
     margin-top: .5rem;
-    //background: rgba(0,0,0,.3);
 }
 .character-bio-box
 {
