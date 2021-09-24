@@ -261,7 +261,7 @@ header #searchBar i {
 }
 
 .character-bio-box .character-image, .character-bio-box .character-info {
-  width: 100%;
+  width: auto;
   height: auto;
 }
 
