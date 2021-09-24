@@ -268,10 +268,20 @@ const swiper1 = new Swiper('.swiper1',
     direction: 'horizontal',
     loop: true,
     centeredSlides: true,
-    allowTouchMove: false,
     paginationClickable: true,
     effect: 'slide',
     preloadImages: true,
+    longSwipes: false,
+    followFinger: false,
+
+    // Swipe Functionality Removal for Desktop
+    breakpoints:
+    {
+        992: 
+        {
+            allowTouchMove: false
+        }
+    },
 
     // Pagination activation
     pagination: 
