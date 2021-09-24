@@ -38,7 +38,7 @@ body::before {
   left: 0;
   position: fixed;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: linear-gradient(45deg, rgba(191, 117, 135, 0.639) 0%, rgba(214, 255, 255, 0.631) 100%), url("../images/other/page-bg-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -54,7 +54,7 @@ body::after {
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background-color: #AB95A5;
   z-index: 1000;
   animation: fadeOut 2.5s;
