@@ -240,6 +240,11 @@ header #searchBar i {
   width: 100%;
 }
 
+.character-anch {
+  position: fixed;
+  top: 35vh;
+}
+
 .character-name {
   font-size: 1.25rem;
   letter-spacing: .15rem;
