@@ -43,7 +43,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
@@ -67,7 +67,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
@@ -91,7 +91,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
@@ -115,7 +115,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
@@ -139,7 +139,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
@@ -163,7 +163,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
@@ -187,7 +187,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
@@ -211,7 +211,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
@@ -235,7 +235,7 @@ $(document).ready(function ()
 
                 // Window scroll for moving down to Bio Section on page
                 window.scroll({
-                    top: 500,
+                    top: 300,
                     behavior: 'smooth'
                 });
                 break;
