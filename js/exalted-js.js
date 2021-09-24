@@ -271,17 +271,19 @@ const swiper1 = new Swiper('.swiper1',
     paginationClickable: true,
     effect: 'slide',
     preloadImages: true,
-    longSwipes: false,
-    followFinger: false,
+    //longSwipes: false,
+    //followFinger: false,
+    allowTouchMove: false, // remove for swiping
 
     // Swipe Functionality Removal for Desktop
+    /*
     breakpoints:
     {
         992: 
         {
             allowTouchMove: false
         }
-    },
+    },*/
 
     // Pagination activation
     pagination: 
