@@ -26,7 +26,7 @@ $(document).ready(function ()
             // Cyrus' Character Bio
             case "#cyrus":
                 // Where you insert Cyrus' Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "Cyrus Asayesh" src = "images/profiles/cyrus-profile.png">';
                 charName.innerHTML = 'Cyrus Asayesh';
                 charAge.innerHTML = '20';
                 charHeight.innerHTML = '5\'11"';
@@ -50,7 +50,7 @@ $(document).ready(function ()
             // Elias' Character Bio
             case "#elias":
                 // Where you insert Elias' Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/elias-profile.png">';
                 charName.innerHTML = 'Elias Barnaby';
                 charAge.innerHTML = '--';
                 charHeight.innerHTML = '--';
@@ -74,7 +74,7 @@ $(document).ready(function ()
             // Ferra's Character Bio
             case "#ferra":
                 // Where you insert Ferra's Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/ferra-profile.png">';
                 charName.innerHTML = 'Ferra Loreborn';
                 charAge.innerHTML = '--';
                 charHeight.innerHTML = '--';
@@ -98,7 +98,7 @@ $(document).ready(function ()
             // Iris' Character Bio
             case "#iris":
                 // Where you insert Iris' Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/iris-profile.png">';
                 charName.innerHTML = 'Iris Shepard';
                 charAge.innerHTML = '--';
                 charHeight.innerHTML = '--';
@@ -122,7 +122,7 @@ $(document).ready(function ()
             // Sethris' Character Bio
             case "#sethris":
                 // Where you insert Sethris' Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/sethris-profile.png">';
                 charName.innerHTML = 'Sethris';
                 charAge.innerHTML = '--';
                 charHeight.innerHTML = '--';
@@ -146,7 +146,7 @@ $(document).ready(function ()
             // Shaesa's Character Bio
             case "#shaesa":
                 // Where you insert Shaesa's Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/shaesa-profile.png">';
                 charName.innerHTML = 'Shaesa Tabris';
                 charAge.innerHTML = '--';
                 charHeight.innerHTML = '--';
@@ -170,7 +170,7 @@ $(document).ready(function ()
             // Sunna's Character Bio
             case "#sunna":
                 // Where you insert Sunna's Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/sunna-profile.png">';
                 charName.innerHTML = 'Sunna Lindesdotten';
                 charAge.innerHTML = '30';
                 charHeight.innerHTML = '6\'2"';
@@ -194,7 +194,7 @@ $(document).ready(function ()
             // Talenna's Character Bio
             case "#talenna":
                 // Where you insert Talenna's Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/talenna-profile.png">';
                 charName.innerHTML = 'Talenna Lavellan/Ethera';
                 charAge.innerHTML = '31';
                 charHeight.innerHTML = '5\'4"';
@@ -218,7 +218,7 @@ $(document).ready(function ()
             // Valere's Character Bio
             case "#valere":
                 // Where you insert Valere's Character Specific Bio Elements
-                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/cyrus-profile.png">';
+                charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/valere-profile.png">';
                 charName.innerHTML = 'Valere';
                 charAge.innerHTML = '--';
                 charHeight.innerHTML = '--';
