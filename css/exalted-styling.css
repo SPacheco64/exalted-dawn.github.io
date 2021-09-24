@@ -164,6 +164,7 @@ i {
 
 .left-content, .right-content {
   justify-content: center;
+  align-self: flex-start;
 }
 
 header {
@@ -262,6 +263,10 @@ header #searchBar i {
 .character-bio-box .character-image, .character-bio-box .character-info {
   width: 100%;
   height: auto;
+}
+
+.character-bio-box .character-image {
+  max-height: 20rem;
 }
 
 .character-bio-box #charColors {
@@ -680,6 +685,9 @@ footer a i {
   }
   .character-bio-box #charColors {
     text-align: left;
+  }
+  .character-bio-box .character-image {
+    max-height: 28rem;
   }
   .character-bio-box .color-box {
     margin: 0 1rem 1rem 0;
