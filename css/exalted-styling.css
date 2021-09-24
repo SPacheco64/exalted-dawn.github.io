@@ -269,6 +269,10 @@ header #searchBar i {
   max-height: 20rem;
 }
 
+.character-bio-box #charImg {
+  height: 20rem;
+}
+
 .character-bio-box #charColors {
   display: block;
   text-align: center;
@@ -688,6 +692,9 @@ footer a i {
   }
   .character-bio-box .character-image {
     max-height: 28rem;
+  }
+  .character-bio-box #charImg {
+    height: 28rem;
   }
   .character-bio-box .color-box {
     margin: 0 1rem 1rem 0;
