@@ -137,8 +137,6 @@ body::after {
   border-radius: 100%;
   color: #FFCCB0;
   background-color: #fff;
-  padding-right: .01rem;
-  padding-top: .01rem;
 }
 
 a {
@@ -376,8 +374,6 @@ header #searchBar i {
   background-color: #fff;
   border-radius: 100%;
   border: .1rem solid #fff;
-  padding-bottom: .01rem;
-  padding-right: .02rem;
 }
 
 .swiper-button-next {
