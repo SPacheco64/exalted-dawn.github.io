@@ -133,6 +133,7 @@ i{caret-color: transparent;}
 .left-content, .right-content
 {
     justify-content: center;
+    align-self: flex-start;
 }
 
 header
@@ -239,6 +240,7 @@ header
         width: 100%;
         height: auto;
     }
+    .character-image{ max-height: 20rem; }
     #charColors
     {
         display: block;
@@ -655,7 +657,7 @@ footer
     .character-bio-box
     {
         #charColors{ text-align: left; }
-
+        .character-image{ max-height: 28rem; }
         .color-box { margin: 0 1rem 1rem 0; }
     }
     .backstory-section
