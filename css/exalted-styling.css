@@ -218,9 +218,10 @@ header #searchBar i {
 }
 
 .swiper-slide-active a {
-  width: 75%;
+  width: 90%;
   display: block;
   margin: 0 auto;
+  margin-top: -1rem;
 }
 
 .slide-img-container {
@@ -668,6 +669,11 @@ footer a i {
   }
   .swiper-button-prev {
     left: 1.5rem;
+  }
+  .swiper-slide-active a {
+    width: 75%;
+    display: block;
+    margin: 0 auto;
   }
   .character-name {
     font-size: 1.5rem;
