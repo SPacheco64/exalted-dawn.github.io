@@ -1,8 +1,32 @@
 // Exalted Dawn Characters Site - JavaScript
 
-// Function Swaps Character Info Shown based on Hash in the URL
+// Following JS Swaps Character Info Shown based on Hash in the URL, and prepares assets
 $(document).ready(function () 
 {
+    // Current number of characters on the site
+    var characterCount = 9;
+
+    // Preloads the Character Profile Images for a smoother bio transition experience
+	if (document.images) 
+    {
+        var img = [];
+        for (let i=0; i < characterCount; i++)
+        {
+            img[i] = new Image();
+        }
+
+		img[0].src = "images/profiles/cyrus-profile.png"; // Cyrus Image
+		img[1].src = "images/profiles/elias-profile.png"; // Elias Image
+		img[2].src = "images/profiles/ferra-profile.png"; // Ferra Image
+        img[3].src = "images/profiles/iris-profile.png"; // Iris Image
+		img[4].src = "images/profiles/sethris-profile.png"; // Sethris Image
+		img[5].src = "images/profiles/shaesa-profile.png"; // Shaesa Image
+        img[6].src = "images/profiles/sunna-profile.png"; // Sunna Image
+		img[7].src = "images/profiles/talenna-profile.png"; // Talenna Image
+		img[8].src = "images/profiles/valere-profile.png"; // Valere Image
+	}
+
+    // Function that swaps all biography/art gallery content on character selection
     function characterChange()
     {
         // Variables for the Character Bio Elements
@@ -20,7 +44,7 @@ $(document).ready(function ()
         const charGallery = document.getElementById("character-img-gallery");
         const bioBox = document.getElementById("bioBox");
         
-
+        // Checks which character name is in the URL and changes content accordingly
         switch(window.location.hash)
         {
             // Cyrus' Character Bio
@@ -245,18 +269,20 @@ $(document).ready(function ()
         }
     }
 
-    // Sets initial character, if a Hash exists in the URL
+    // Sets initial character on page load, if a Hash exists in the URL
     characterChange();
 
     // Changes character shown when the Hash in the URL changes
     window.onhashchange = characterChange;
 });
 
+
 // Initialization for the AOS CSS Animations
 AOS.init
 ({
     duration: 800
 });
+
 
 // Initialization for the SwiperJS Sliders
 const swiper1 = new Swiper('.swiper1', 
@@ -294,12 +320,14 @@ const swiper1 = new Swiper('.swiper1',
     navigation: { nextEl: '.swiper-button-next', prevEl: '.swiper-button-prev',},
 });
 
+
 // Back To Top Button JS
 scrollBtn = document.getElementById("scrollToTopBtn");
 window.onscroll = function() 
 {
     scrollFunction()
 };
+// Function brings in Scroll to Top Button when the user is at least 100px down on the page
 function scrollFunction() 
 {
     if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 100) 
@@ -318,7 +346,8 @@ function topFunction()
     document.documentElement.scrollTop = 0; // Chrome, Firefox, & IE Compatibility
 }
 
-// Function to expand/collapse Backstory Section
+
+// Function to expand/collapse the Backstory Section
 backstoryTop = document.getElementById("backstoryTop");
 bottomPreview = document.getElementById("continuePreview");
 function expandBackstory()
@@ -335,21 +364,22 @@ function collapseBackstory()
     bottomPreview.style.display = "block";
 }
 
-// Basic JS for Character Art Gallery
+
+// Basic Slider JS for the Character Art Gallery
 var slideIndex = 1;
 showSlides(slideIndex);
+
 // Thumbnail image controls
 function currentSlide(n) 
 {
     showSlides(slideIndex = n);
     document.getElementById("character-img-gallery").scrollIntoView();
-
 }
 function showSlides(n) 
 {
-    var i;
     var slides = document.getElementsByClassName("mySlides");
     var dots = document.getElementsByClassName("art-thumbnail");
+    var j;
 
     if (n > slides.length) 
     {
@@ -359,15 +389,18 @@ function showSlides(n)
     {
         slideIndex = slides.length
     }
-    for (i = 0; i < slides.length; i++) 
+    for (j = 0; j < slides.length; j++) 
     {
-        slides[i].style.display = "none";
+        slides[j].style.display = "none";
     }
-    for (i = 0; i < dots.length; i++) 
+    for (j = 0; j < dots.length; j++) 
     {
-        dots[i].className = dots[i].className.replace(" active", "");
+        dots[j].className = dots[j].className.replace(" active", "");
     }
     
-    slides[slideIndex-1].style.display = "flex";
-    dots[slideIndex-1].className += " active";
+    if (document.getElementsByClassName("mySlides").length != 0)
+    {
+        slides[slideIndex-1].style.display = "flex";
+        dots[slideIndex-1].className += " active";
+    }
 }
