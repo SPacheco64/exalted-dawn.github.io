@@ -124,11 +124,11 @@ $(document).ready(function ()
                 // Where you insert Iris' Character Specific Bio Elements
                 charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/iris-profile.png">';
                 charName.innerHTML = 'Iris Shepard';
-                charAge.innerHTML = '--';
-                charHeight.innerHTML = '--';
+                charAge.innerHTML = '33';
+                charHeight.innerHTML = '5\'8';
                 charFranchise.innerHTML = 'Mass Effect';
                 charRace.innerHTML = 'Human';
-                charLikes.innerHTML = '--';
+                charLikes.innerHTML = 'Boxing, Judo, Gambling, Junk Food';
                 charDislikes.innerHTML = '--';
                 charPersonality.innerHTML = '--';
                 charColors.innerHTML = '<span class = "color-box" style = "background-color: tomato;">#FFFFFF</span> <span class = "color-box" style = "background-color: purple;">#FFFFFF</span> <span class = "color-box" style = "background-color: green;">#FFFFFF</span><br> <span class = "color-box" style = "background-color: tomato;">#FFFFFF</span> <span class = "color-box" style = "background-color: purple;">#FFFFFF</span> <span class = "color-box" style = "background-color: green;">#FFFFFF</span><br>';
@@ -224,7 +224,7 @@ $(document).ready(function ()
                 charHeight.innerHTML = '5\'4"';
                 charFranchise.innerHTML = 'Dragon Age';
                 charRace.innerHTML = 'Elf';
-                charLikes.innerHTML = '--';
+                charLikes.innerHTML = 'Reading, Whittling, Astronomy, Storytelling';
                 charDislikes.innerHTML = '--';
                 charPersonality.innerHTML = '--';
                 charColors.innerHTML = '<span class = "color-box" style = "background-color: tomato;">#FFFFFF</span> <span class = "color-box" style = "background-color: purple;">#FFFFFF</span> <span class = "color-box" style = "background-color: green;">#FFFFFF</span><br> <span class = "color-box" style = "background-color: tomato;">#FFFFFF</span> <span class = "color-box" style = "background-color: purple;">#FFFFFF</span> <span class = "color-box" style = "background-color: green;">#FFFFFF</span><br>';
