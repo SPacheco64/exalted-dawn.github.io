@@ -125,7 +125,7 @@ $(document).ready(function ()
                 charImg.innerHTML = '<img class = "character-image" alt = "" src = "images/profiles/iris-profile.png">';
                 charName.innerHTML = 'Iris Shepard';
                 charAge.innerHTML = '33';
-                charHeight.innerHTML = '5\'8';
+                charHeight.innerHTML = '5\'8"';
                 charFranchise.innerHTML = 'Mass Effect';
                 charRace.innerHTML = 'Human';
                 charLikes.innerHTML = 'Boxing, Judo, Gambling, Junk Food';
