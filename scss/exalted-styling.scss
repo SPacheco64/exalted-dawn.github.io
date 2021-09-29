@@ -133,6 +133,15 @@ i{caret-color: transparent;}
     justify-content: center;
     align-self: flex-start;
 }
+.right-content
+{
+    border: .1rem solid $white-text;
+    padding: 5%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    width: 85%;
+    position: relative;
+}
 
 header
 {
@@ -248,9 +257,9 @@ header
     {
         display: inline-flex;
         margin: .3rem;
-        font-size: .8rem;
-        height: 4rem;
-        width: 4rem;
+        font-size: .55rem;
+        height: 3rem;
+        width: 3rem;
         align-items: center;
         justify-content: center;
         border-radius: .5rem;
@@ -655,7 +664,14 @@ footer
         #charColors{ text-align: left; }
         .character-image{ max-height: 28rem; }
         #charImg{ height: 28rem; }
-        .color-box { margin: 0 1rem 1rem 0; }
+        .color-box { margin: 0 1rem 1rem 0; font-size: .8rem; height: 4rem; width: 4rem; }
+    }
+    .right-content
+    {
+        border: none;
+        padding: 0;
+        margin: auto;
+        width: 100%;
     }
     .backstory-section
     {
