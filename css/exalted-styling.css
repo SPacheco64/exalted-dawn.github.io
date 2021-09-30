@@ -275,7 +275,8 @@ header #searchBar i {
 
 .character-bio-box .character-info {
   line-height: 1.75rem;
-  width: 95%;
+  width: 100%;
+  padding-right: 5%;
 }
 
 .character-bio-box .character-image {
