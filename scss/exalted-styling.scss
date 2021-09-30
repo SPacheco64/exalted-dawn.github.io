@@ -245,7 +245,11 @@ header
         width: auto;
         height: auto;
     }
-    .character-info{line-height: 1.75rem; width: 100%; }
+    .character-info
+    {
+        line-height: 1.75rem; 
+        width: 95%;    
+    }
     .character-image{ max-height: 20rem; }
     #charImg{ height: 20rem; }
     #charColors
