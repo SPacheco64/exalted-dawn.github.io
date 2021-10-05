@@ -10,7 +10,6 @@ Tech Used:
 - Bootstrap 4 
 - JavaScript 
 - jQuery
-- PHP
 - Animations
 
 Project Requirements:
