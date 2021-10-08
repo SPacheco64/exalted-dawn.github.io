@@ -250,6 +250,7 @@ header #searchBar i {
 .character-anch {
   position: fixed;
   top: 35vh;
+  caret-color: transparent;
 }
 
 .character-name {
@@ -289,6 +290,7 @@ header #searchBar i {
 
 .character-bio-box #charImg {
   height: 20rem;
+  caret-color: transparent;
 }
 
 .character-bio-box #charColors {
