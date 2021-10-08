@@ -224,6 +224,7 @@ header
 {
     position: fixed;
     top: 35vh;
+    caret-color: transparent;
 }
 .character-name
 {
@@ -253,7 +254,7 @@ header
         b{ padding-right: 0.2rem; }    
     }
     .character-image{ max-height: 20rem; }
-    #charImg{ height: 20rem; }
+    #charImg{ height: 20rem; caret-color: transparent; }
     #charColors
     {
         display: block;
