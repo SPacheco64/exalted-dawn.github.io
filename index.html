@@ -35,7 +35,10 @@
     </head>
 
     <body>
-        <button onclick = "topFunction()" id = "scrollToTopBtn"><i class="fas fa-arrow-alt-circle-up"></i></button>
+        <button onclick = "topFunction()" id = "scrollToTopBtn">
+            <i class="fas fa-arrow-alt-circle-up"></i>
+            <span class = "sr-only">Back to Top</span>
+        </button>
 
         <div id = "mainContent" data-aos = "fade-up" data-aos-once = "true" data-aos-duration = "2000">
             <!-- Site Header -->
@@ -57,7 +60,7 @@
                         <div class = "swiper-slide" id = "">
                             <a href = "#cyrus">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/cyrus-portrait.png">
+                                    <img alt = "Cyrus Asayesh Portrait" src = "images/portraits/cyrus-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Cyrus
@@ -67,7 +70,7 @@
                         <div class = "swiper-slide"  id = "">
                             <a href = "#elias">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/elias-portrait.png">
+                                    <img alt = "Elias Barnaby Portrait" src = "images/portraits/elias-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Elias
@@ -77,7 +80,7 @@
                         <div class = "swiper-slide"  id = "">
                             <a href = "#ferra">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/ferra-portrait.png">
+                                    <img alt = "Ferra Loreborn Portrait" src = "images/portraits/ferra-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Ferra
@@ -87,7 +90,7 @@
                         <div class = "swiper-slide"  id = "">
                             <a href = "#iris">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/iris-portrait.png">
+                                    <img alt = "Iris Shepard Portrait" src = "images/portraits/iris-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Iris
@@ -97,7 +100,7 @@
                         <div class = "swiper-slide"  id = "">
                             <a href = "#sethris">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/sethris-portrait.png">
+                                    <img alt = "Sethris Portrait" src = "images/portraits/sethris-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Sethris
@@ -107,7 +110,7 @@
                         <div class = "swiper-slide"  id = "">
                             <a href = "#shaesa">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/shaesa-portrait.png">
+                                    <img alt = "Shaesa Tabris Portrait" src = "images/portraits/shaesa-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Shaesa
@@ -117,7 +120,7 @@
                         <div class = "swiper-slide"  id = "">
                             <a href = "#sunna">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/sunna-portrait.png">
+                                    <img alt = "Sunna Lindesdotten Portrait" src = "images/portraits/sunna-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Sunna
@@ -127,7 +130,7 @@
                         <div class = "swiper-slide"  id = "">
                             <a href = "#talenna">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/talenna-portrait.png">
+                                    <img alt = "Talenna Lavellan/Ethera Portrait" src = "images/portraits/talenna-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Talenna
@@ -137,7 +140,7 @@
                         <div class = "swiper-slide"  id = "">
                             <a href = "#valere">
                                 <div class = "slide-img-container">
-                                    <img alt = "" src = "images/portraits/valere-portrait.png">
+                                    <img alt = "Valere Portrait" src = "images/portraits/valere-portrait.png">
                                 </div>
                                 <div class = "character-name">
                                     Valere
@@ -228,27 +231,34 @@
                 <span>
                     <a target = "_blank" href = "https://www.instagram.com/exalted_dawn" rel = "noopener norferrer">
                         <i class="fab fa-instagram"></i>
+                        <span class = "sr-only">Exalted_Dawn Instagram</span>
                     </a>
                 </span>
                 <span>
                     <a target = "_blank" href = "https://twitter.com/exalted_dawn" rel = "noopener norferrer">
                         <i class = "fab fa-twitter"></i>
+                        <span class = "sr-only">Exalted_Dawn Twitter</span>
                     </a>
                 </span>
                 <span>
                     <a target = "_blank" href = "https://exalted-dawn.tumblr.com/" rel = "noopener norferrer">
                         <i class = "fab fa-tumblr"></i>
+                        <span class = "sr-only">Exalted_Dawn Tumblr</span>
                     </a>
                 </span>
                 <span>
                     <a target = "_blank" href = "mailto:exalted.dawn.draws@gmail.com" rel = "noopener norferrer">
                         <i class = "far fa-envelope"></i>
+                        <span class = "sr-only">Exalted_Dawn Email</span>
                     </a>
                 </span>
             </div>
             <div>
                 Developed & Designed by 
-                <a href = "https://www.sergio-pacheco.com" target = "_blank" style = "text-decoration: underline;" rel = "noopener norferrer">Sergio Pacheco<!--<img style = "width: 1.1rem; text-decoration: none; margin-top: -.3rem; margin-left: 0.2rem;" alt="" src="images/other/site-favicon.png">--></span></a>
+                <a href = "https://www.sergio-pacheco.com" target = "_blank" style = "text-decoration: underline;" rel = "noopener norferrer">
+                    Sergio Pacheco
+                    <span class = "sr-only">Sergio Pacheco's Developer Portfolio Website</span>
+                </a>
             </div>
         </footer>
     </body>
