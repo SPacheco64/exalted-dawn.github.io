@@ -1,6 +1,6 @@
 /* Exalted Dawn Site Styling */
 /* Font Imports */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400italic,700,700italic%7CSource+Sans+Pro:200,200italic,400,400italic");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,400italic,700,700italic%7CSource+Sans+Pro:200,200italic,400,400italic&display=swap");
 /* Basic SCSS Style Variables */
 /* Animation CSS (using AOS animation library) */
 [aos="fade"] {
@@ -250,6 +250,7 @@ header #searchBar i {
 .character-anch {
   position: fixed;
   top: 35vh;
+  caret-color: transparent;
 }
 
 .character-name {
@@ -289,6 +290,7 @@ header #searchBar i {
 
 .character-bio-box #charImg {
   height: 20rem;
+  caret-color: transparent;
 }
 
 .character-bio-box #charColors {
@@ -306,6 +308,7 @@ header #searchBar i {
   justify-content: center;
   border-radius: .5rem;
   border: .1rem solid #fff;
+  text-shadow: 1px 1px 4px #000;
 }
 
 .backstory-section {
