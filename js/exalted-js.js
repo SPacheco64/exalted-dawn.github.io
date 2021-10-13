@@ -18,10 +18,10 @@ $(document).ready(function ()
 		img[0].src = "images/profiles/cyrus-profile.png"; // Cyrus Image
 		img[1].src = "images/profiles/elias-profile.png"; // Elias Image
 		img[2].src = "images/profiles/ferra-profile.png"; // Ferra Image
-        img[3].src = "images/profiles/iris-profile.png"; // Iris Image
+        	img[3].src = "images/profiles/iris-profile.png"; // Iris Image
 		img[4].src = "images/profiles/sethris-profile.png"; // Sethris Image
 		img[5].src = "images/profiles/shaesa-profile.png"; // Shaesa Image
-        img[6].src = "images/profiles/sunna-profile.png"; // Sunna Image
+        	img[6].src = "images/profiles/sunna-profile.png"; // Sunna Image
 		img[7].src = "images/profiles/talenna-profile.png"; // Talenna Image
 		img[8].src = "images/profiles/valere-profile.png"; // Valere Image
 	}
