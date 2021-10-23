@@ -690,7 +690,7 @@ footer a i {
     font-size: 1rem;
   }
   .swiper-button-next, .swiper-button-prev {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
   .swiper-button-next {
     right: 1.5rem;
@@ -760,6 +760,9 @@ footer a i {
     width: 8rem;
     font-size: 1.25rem;
   }
+  #scrollToTopBtn i {
+    font-size: 3.5rem;
+  }
 }
 
 @media (min-width: 992px) {
@@ -777,6 +780,9 @@ footer a i {
   }
   .swiper-slide-active a:hover img {
     transform: scale(1.5);
+  }
+  .swiper-button-next, .swiper-button-prev {
+    font-size: 2.5rem;
   }
   .swiper-button-next i, .swiper-button-prev i {
     opacity: .75;
