@@ -7,10 +7,10 @@ This is a website that showcases the original characters of the digital artist E
 Tech Used: 
 - HTML5
 - SCSS 
-- Bootstrap 4 
+- Bootstrap
 - JavaScript 
 - jQuery
-- Animations
+- CSS Animations
 
 Project Requirements:
 - The style of the site was made to match her pre-existing carrd.co commissions website, but in a cleaner fashion.
